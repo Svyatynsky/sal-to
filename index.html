@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+	<!-- Подключаем файл normalize.css, чтобы стили в разных браузерах отображись одинаково -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<!-- Подключаем файл header.css, чтобы работали стили шапки сайта -->
+	<link rel="stylesheet" href="css/header.css">
+	<!-- Подключаем файл style.css, чтобы работали основные стили сайта -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Подключаем файл footer.css, чтобы работали стили подвала сайта -->
+	<link rel="stylesheet" href="css/footer.css">
+	<!-- Подключаем файл ui.css, чтобы работали общие стили сайта -->
+	<link rel="stylesheet" href="css/ui.css">
+	<!-- Подключаем файл media.css, чтобы работали медиа-запросы сайта, которые позволяют сделать адаптивной страничку -->
+	<link rel="stylesheet" href="css/media.css">
+	<title>Sal'to</title>
+</head>
+<body>
+	<!-- Header html start -->
+	<header class="header">
+		<div class="container">
+			<div class="header__wrapper">
+				<div class="header__text">Торговая площадка</div>
+				<div class="header__actions">
+					<img src="img/user.png" alt="" class="header__actions-img">
+					<button type="submit" class="header__actions-login">Вход/</button>					
+					<button type="submit" class="header__actions-reg">Регистрация</button>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- Header main-content start -->
+	<section class="main-content">
+		<!-- Header main-block start -->
+		<div class="main-block">
+			<div class="main-block__wrapper container">
+				<a href="#" class="main-block__logo">
+					<img src="img/salto.png" alt="" class="main-block__img">
+				</a>
+				<div class="main-block__links">
+					<a href="#" class="main-block__link">Доска объявлений</a>
+					<a href="#" class="main-block__link">Коммерческие предложения</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Header footer start -->
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__wrapper">
+				<div class="footer-top">
+					<nav class="menu">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a href="#" class="menu__link">Карта сайта</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">Правила</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">Контакты</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">Помощь</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">О нас</a>
+							</li>
+						</ul>
+					</nav>
+					<a href="#" class="footer-top__link">Отзывы и предложения</a>
+				</div>
+				<div class="footer-bottom">
+					<p class="footer-bottom__info">Использование услуг данного сайта, ознчает согласие с <a href="#">пользовательским соглашением</a>. Оплачивая услуги на сайте, вы принимаете <a href="#">оферту</a></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

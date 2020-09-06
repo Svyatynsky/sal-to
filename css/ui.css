@@ -1,0 +1,33 @@
+*,
+*:before,
+*:after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+html {
+	height: 100%;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+a,
+li {
+  text-decoration: none;
+  list-style: none;
+  color: #666;
+}
+button {
+	cursor: pointer;
+	padding: 0;
+	border: none;
+	font: inherit;
+	color: inherit;
+	background-color: transparent;
+	cursor: pointer;
+	align-self: center;
+}
